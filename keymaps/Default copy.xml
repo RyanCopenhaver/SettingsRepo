@@ -4,7 +4,15 @@
     <keyboard-shortcut first-keystroke="shift alt back_space" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+  </action>
   <action id="CheckinProject" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt q" />
+  </action>
   <action id="CompareTwoFiles" />
   <action id="Console.Execute.Multiline" />
   <action id="Console.TableResult.CloneColumn" />
@@ -32,6 +40,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl d" />
     <keyboard-shortcut first-keystroke="shift ctrl alt d" />
   </action>
+  <action id="EditorPasteSimple" />
   <action id="EditorSplitLine">
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
@@ -64,12 +73,25 @@
     <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="shift ctrl alt e" />
   </action>
+  <action id="PublishGroup.UploadTo" />
+  <action id="Refactorings.QuickListPopupAction" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift ctrl alt z" />
+  </action>
   <action id="SelectNextOccurrence">
     <keyboard-shortcut first-keystroke="alt j" />
     <keyboard-shortcut first-keystroke="ctrl d" />
   </action>
   <action id="SendEOF" />
   <action id="ShelvedChanges.Diff" />
+  <action id="SurroundWithLiveTemplate">
+    <keyboard-shortcut first-keystroke="ctrl alt j" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt t" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
